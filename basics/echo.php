@@ -24,6 +24,7 @@
 			echo "Hello", " world", " I", " love", " you."; // here, there are 5 separate arguments
 			echo "<br>";
 			echo "The result is " . 1 | 2; // here, the concatenation of string and `1` is done first, then OR'd with `2`
+			echo "And... actually this raises an error...";
 			echo "<br>";
 			echo "The result is ", 1 | 2; // here, there are 2 arguments which are evaluated individually
 			echo "<br>";
